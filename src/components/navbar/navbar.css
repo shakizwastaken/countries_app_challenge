@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 100px;
+  width: 100vw;
+
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+}
+
+.nav-container {
+  width: 85vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

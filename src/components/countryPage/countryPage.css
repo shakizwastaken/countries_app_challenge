@@ -1,0 +1,69 @@
+.country-page-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 75vh;
+  width: 100%;
+
+  flex: 0 1 auto;
+}
+
+.country-page-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  width: 100%;
+  gap: 30px;
+}
+
+.country-page-wrapper .flag {
+  height: 100%;
+  max-width: 35vw;
+  overflow: hidden;
+}
+
+.country-page-info {
+  display: flex;
+  flex-direction: column;
+  padding: none;
+  flex: 2;
+}
+
+.country-page-info > h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.country-page-stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 75%;
+}
+
+.country-page-stats-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  flex: auto;
+  width: 50%;
+  padding: 1% 0px;
+}
+
+.country-page-stats-item strong {
+  font-weight: 900;
+}
+
+.border-countries {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 10px;
+}

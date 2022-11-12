@@ -1,0 +1,8 @@
+.filters-section {
+  width: 1440px;
+  height: 150px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

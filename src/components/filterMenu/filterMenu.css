@@ -1,0 +1,61 @@
+.filter-menu-wrapper {
+  position: relative;
+
+  width: 15vw;
+  text-align: center;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.filter-menu-wrapper > * {
+  border-radius: 5px;
+}
+
+.filter-menu {
+  padding: 15px;
+  width: 100%;
+}
+
+.filter-menu-dropdown {
+  position: absolute;
+  bottom: 0px;
+  transform: translateY(105%);
+
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 15px;
+
+  z-index: 50;
+
+  animation: dropDown 0.5s ease;
+}
+
+.filter-menu-dropdown > * {
+  animation: fadeIn 1s ease;
+}
+
+@keyframes dropDown {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 22vh;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
